@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1986516672699120}
+  m_IsPrefabParent: 1
+--- !u!1 &1986516672699120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734168655284630}
+  - component: {fileID: 212370440607488138}
+  - component: {fileID: 60224975759359236}
+  - component: {fileID: 114227864145305608}
+  - component: {fileID: 82409066053472156}
+  m_Layer: 0
+  m_Name: coin
+  m_TagString: coin
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4734168655284630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986516672699120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -351, y: 142, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60224975759359236
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986516672699120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 322, y: 322}
+    newSize: {x: 322, y: 322}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 63, y: -150}
+      - {x: 87, y: -138}
+      - {x: 96, y: -132}
+      - {x: 104, y: -125}
+      - {x: 129, y: -100}
+      - {x: 140, y: -84}
+      - {x: 148, y: -68}
+      - {x: 155, y: -50}
+      - {x: 159, y: -35}
+      - {x: 161, y: -24}
+      - {x: 161, y: 28}
+      - {x: 156, y: 48}
+      - {x: 149, y: 66}
+      - {x: 142, y: 81}
+      - {x: 137, y: 89}
+      - {x: 133, y: 95}
+      - {x: 126, y: 103}
+      - {x: 118, y: 113}
+      - {x: 104, y: 126}
+      - {x: 94, y: 133}
+      - {x: 81, y: 142}
+      - {x: 57, y: 154}
+      - {x: 41, y: 158}
+      - {x: 26, y: 161}
+      - {x: -27, y: 161}
+      - {x: -45, y: 157}
+      - {x: -61, y: 151}
+      - {x: -84, y: 140}
+      - {x: -96, y: 132}
+      - {x: -104, y: 125}
+      - {x: -117, y: 113}
+      - {x: -126, y: 104}
+      - {x: -143, y: 81}
+      - {x: -154, y: 57}
+      - {x: -160, y: 31}
+      - {x: -161, y: 25}
+      - {x: -161, y: -26}
+      - {x: -160, y: -36}
+      - {x: -156, y: -47}
+      - {x: -150, y: -67}
+      - {x: -136, y: -92}
+      - {x: -129, y: -100}
+      - {x: -105, y: -125}
+      - {x: -82, y: -142}
+      - {x: -56, y: -154}
+      - {x: -29, y: -160}
+      - {x: -26, y: -161}
+      - {x: 22, y: -161}
+      - {x: 30, y: -160}
+      - {x: 44, y: -157}
+      - {x: 50, y: -155}
+--- !u!82 &82409066053472156
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986516672699120}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 875c2e64e6e971945acac7f845a1933b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114227864145305608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986516672699120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b066cbdb1d621d429e201cfd9ef53bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minXSpeed: 5
+  maxXSpeed: 10
+  minYSpeed: -2
+  maxYSpeed: 2
+--- !u!212 &212370440607488138
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986516672699120}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 45e10c0b9f604704aab6cebd7cd076cc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 322, y: 322}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
